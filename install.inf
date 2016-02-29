@@ -1,0 +1,20 @@
+[info]
+title=HTML Validator
+desc=Allows to validate HTML documents using online W3C checkers
+type=cudatext-plugin
+subdir=cuda_html_validator
+
+[item1]
+section=commands
+caption=HTML Validator\HTML5
+method=validate_html5
+
+[item2]
+section=commands
+caption=HTML Validator\HTML4
+method=validate_html4_strict
+
+[item3]
+section=commands
+caption=HTML Validator\HTML4 Transitional
+method=validate_html4_tran
